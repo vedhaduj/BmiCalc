@@ -17,5 +17,5 @@ int main()
     std::cout << "\n";
     std::cout << "Below 18: Underweight || 18.5 - 24.9: Normal Weight || 25.0 - 29.9: Overweight\n";
     std::cout << "30.0 - 34.9: Obese || 35.0 - 39.9 : Obesity Class 2 || above 40 : Obesity class 3\n";
-    std::cout << "Keep in mind this is psuedo accurate so round it up to the nearest tenth!\n";
+    std::cout << "Keep in mind this is psuedo accurate so round it up to the nearest tenth! - or fifth\n";
 }
