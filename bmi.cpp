@@ -2,21 +2,25 @@
 
 int main()
 {
+    #include <iostream>
+
+int main()
+{
     int heiin;
     int ibweight;
     std::cout << "Enter height in inches: \n";
     std::cin >> heiin;
    
-    std::cout << "Enter weight in lbs: \n";
+    std::cout << "Enter weight in kg: \n";
     std::cin >> ibweight;
    
-    int bmi = ibweight * 703;
+    //squaring height so we can divide that by our weight
+    int f_height = sqrt(heiin);
 
-    int final_bmi = bmi / (heiin * heiin); //I could have done order of operations but I felt like it would be more 
-                                           //understandable like this.
-    
+    //finally getting bmi 
+    int f_bmi = (ibweight / f_height);
 
-    std::cout << "BMI: " << final_bmi << std::endl;
+    std::cout << "BMI: " << f_bmi << std::endl;
     
     std::cout << "----------------------------\n";
 
@@ -24,5 +28,4 @@ int main()
     std::cout << "Normal: between 18.5 and 24.9\n";
     std::cout << "Overweight: between 25 and 29.9\n";
     std::cout << "Obese: 30 or greater\n";
-    
 }
