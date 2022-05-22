@@ -2,10 +2,6 @@
 
 int main()
 {
-    #include <iostream>
-
-int main()
-{
     int heiin;
     int ibweight;
     std::cout << "Enter height in inches: \n";
