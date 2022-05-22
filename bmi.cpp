@@ -7,7 +7,7 @@ int main()
     std::cout << "Enter height in inches: \n";
     std::cin >> heiin;
    
-    std::cout << "Enter weight in kg: \n";
+    std::cout << "Enter weight in pounds: \n";
     std::cin >> ibweight;
    
     //squaring height so we can divide that by our weight
